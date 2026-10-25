@@ -75,7 +75,7 @@ details p{margin:12px 0 0;color:#4A4E58;max-width:62ch}
 .l h1{font-weight:900;font-size:clamp(56px,7.6vw,122px);line-height:.86;letter-spacing:-.065em;margin:auto 0 26px}
 .l p{font-size:19px;color:#4A4E58;max-width:36ch;margin:0 0 30px}
 .r{background:var(--blue);position:relative;overflow:hidden;color:#fff}
-.r .og{position:absolute;height:48%;width:auto;max-width:60%;left:50%;transform:translateX(-50%);top:9%;z-index:1;color:#fff}
+.r .og{position:absolute;height:48%;width:auto;max-width:60%;left:50%;transform:translateX(-50%);top:18%;z-index:1;color:#fff}
 .water{position:absolute;left:0;right:0;bottom:0;height:115%;z-index:2;animation:ebb 3.4s cubic-bezier(.45,.05,.2,1) .4s forwards}
 .water .surf{position:absolute;top:-34px;left:0;width:200%;height:2034px;display:block;animation:roll 8s linear infinite}
 .water .body{position:absolute;inset:0}
@@ -196,3 +196,6 @@ details p{margin:12px 0 0;color:#4A4E58;max-width:62ch}
  .svrow,.phase,.cols,.story,.cform{grid-template-columns:1fr;gap:24px}.need,.defs,.nextg{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.flow div{border-right:0;border-bottom:1.5px solid var(--blue)}
  .blk{padding:70px 0}.fw{grid-template-columns:1fr 1fr;padding:0 16px}.fw>div:first-child{grid-column:1/-1}.fine{padding:0 16px}.legal{padding:50px 16px 80px}.simple-top{padding:18px 16px}
 }
+
+@media(max-width:900px){.hero .r .og{top:9%}}
+@media(max-width:1180px){.navl{gap:24px}.navl ul{gap:16px}.tt{display:none}}
