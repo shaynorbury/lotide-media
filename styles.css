@@ -75,7 +75,7 @@ details p{margin:12px 0 0;color:#4A4E58;max-width:62ch}
 .l h1{font-weight:900;font-size:clamp(56px,7.6vw,122px);line-height:.86;letter-spacing:-.065em;margin:auto 0 26px}
 .l p{font-size:19px;color:#4A4E58;max-width:36ch;margin:0 0 30px}
 .r{background:var(--blue);position:relative;overflow:hidden;color:#fff}
-.r .og{position:absolute;width:50%;left:25%;top:11%;z-index:1;color:#fff}
+.r .og{position:absolute;height:48%;width:auto;max-width:60%;left:50%;transform:translateX(-50%);top:9%;z-index:1;color:#fff}
 .water{position:absolute;left:0;right:0;bottom:0;height:115%;z-index:2;animation:ebb 3.4s cubic-bezier(.45,.05,.2,1) .4s forwards}
 .water .surf{position:absolute;top:-34px;left:0;width:200%;height:2034px;display:block;animation:roll 8s linear infinite}
 .water .body{position:absolute;inset:0}
@@ -124,7 +124,7 @@ details p{margin:12px 0 0;color:#4A4E58;max-width:62ch}
 .menu{display:none;background:none;border:1.5px solid var(--blue);color:var(--blue);font:700 14px var(--body);padding:9px 14px;border-radius:3px;cursor:pointer}
 .ihero{grid-template-columns:1.25fr .75fr;min-height:62vh}
 .ihero .l h1{font-size:clamp(48px,6.2vw,96px);max-width:12ch}
-.ihero .r .og{width:34%;left:33%;top:12%}
+.ihero .r .og{height:40%;width:auto;left:50%;top:11%}
 .l p.eyebrow,.story p.eyebrow{color:var(--blue);font-size:13px;margin-bottom:18px}
 .ihero .water{animation-name:ebbi}@keyframes ebbi{to{height:26%}}
 .eyebrow.hero-e{margin:auto 0 18px}
@@ -192,7 +192,7 @@ details p{margin:12px 0 0;color:#4A4E58;max-width:62ch}
  .mnav{display:none;flex-direction:column;gap:2px;padding:10px 0 0}
  .mnav.open{display:flex}.mnav a{padding:12px 0;border-bottom:1px solid #EEF0F3;font:700 18px var(--disp)}
  .ihero{grid-template-columns:1fr;min-height:0}.ihero .r{min-height:380px}.ihero .water{animation-name:ebbim}@keyframes ebbim{to{height:40%}}.eyebrow.hero-e{margin-top:44px}
- .ihero .r .og{width:26%;left:37%;top:8%}
+ .ihero .r .og{height:32%;width:auto;left:50%;top:8%}
  .svrow,.phase,.cols,.story,.cform{grid-template-columns:1fr;gap:24px}.need,.defs,.nextg{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.flow div{border-right:0;border-bottom:1.5px solid var(--blue)}
  .blk{padding:70px 0}.fw{grid-template-columns:1fr 1fr;padding:0 16px}.fw>div:first-child{grid-column:1/-1}.fine{padding:0 16px}.legal{padding:50px 16px 80px}.simple-top{padding:18px 16px}
 }
